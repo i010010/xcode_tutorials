@@ -14,6 +14,7 @@
 		1839184722507D9000DD6EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1839184522507D9000DD6EE9 /* LaunchScreen.storyboard */; };
 		1839185222507D9000DD6EE9 /* test3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839185122507D9000DD6EE9 /* test3Tests.swift */; };
 		1839185D22507D9000DD6EE9 /* test3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839185C22507D9000DD6EE9 /* test3UITests.swift */; };
+		1839186B22507DDA00DD6EE9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1839186A22507DDA00DD6EE9 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1839185822507D9000DD6EE9 /* test3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1839185C22507D9000DD6EE9 /* test3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test3UITests.swift; sourceTree = "<group>"; };
 		1839185E22507D9000DD6EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1839186A22507DDA00DD6EE9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1839183C22507D9000DD6EE9 /* AppDelegate.swift */,
 				1839183E22507D9000DD6EE9 /* ViewController.swift */,
+				1839186A22507DDA00DD6EE9 /* ViewController2.swift */,
 				1839184022507D9000DD6EE9 /* Main.storyboard */,
 				1839184322507D9000DD6EE9 /* Assets.xcassets */,
 				1839184522507D9000DD6EE9 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				1839183F22507D9000DD6EE9 /* ViewController.swift in Sources */,
 				1839183D22507D9000DD6EE9 /* AppDelegate.swift in Sources */,
+				1839186B22507DDA00DD6EE9 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +434,7 @@
 				DEVELOPMENT_TEAM = HYF6G62N4D;
 				INFOPLIST_FILE = test3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = apple.test3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phiilo.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,7 +449,7 @@
 				DEVELOPMENT_TEAM = HYF6G62N4D;
 				INFOPLIST_FILE = test3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = apple.test3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phiilo.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
