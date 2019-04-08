@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188F3928225B76F3000A417D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3927225B76F3000A417D /* AppDelegate.m */; };
+		188F392B225B76F3000A417D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F392A225B76F3000A417D /* ViewController.m */; };
+		188F3931225B76F3000A417D /* BlackSpace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 188F392F225B76F3000A417D /* BlackSpace.xcdatamodeld */; };
+		188F3933225B76F7000A417D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188F3932225B76F7000A417D /* Assets.xcassets */; };
+		188F3939225B76F7000A417D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3938225B76F7000A417D /* main.m */; };
+		188F3943225B76F7000A417D /* BlackSpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3942225B76F7000A417D /* BlackSpaceTests.m */; };
+		188F394E225B76F7000A417D /* BlackSpaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F394D225B76F7000A417D /* BlackSpaceUITests.m */; };
+		188F3960225B79D5000A417D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F395F225B79D4000A417D /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188F393F225B76F7000A417D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188F391B225B76F3000A417D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188F3922225B76F3000A417D;
+			remoteInfo = BlackSpace;
+		};
+		188F394A225B76F7000A417D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188F391B225B76F3000A417D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188F3922225B76F3000A417D;
+			remoteInfo = BlackSpace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188F3923225B76F3000A417D /* BlackSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F3926225B76F3000A417D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188F3927225B76F3000A417D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188F3929225B76F3000A417D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188F392A225B76F3000A417D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188F3930225B76F3000A417D /* BlackSpace.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackSpace.xcdatamodel; sourceTree = "<group>"; };
+		188F3932225B76F7000A417D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188F3937225B76F7000A417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188F3938225B76F7000A417D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188F393E225B76F7000A417D /* BlackSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F3942225B76F7000A417D /* BlackSpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackSpaceTests.m; sourceTree = "<group>"; };
+		188F3944225B76F7000A417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188F3949225B76F7000A417D /* BlackSpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackSpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F394D225B76F7000A417D /* BlackSpaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackSpaceUITests.m; sourceTree = "<group>"; };
+		188F394F225B76F7000A417D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188F395E225B79D4000A417D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		188F395F225B79D4000A417D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188F3920225B76F3000A417D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F393B225B76F7000A417D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3946225B76F7000A417D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188F391A225B76F3000A417D = {
+			isa = PBXGroup;
+			children = (
+				188F3925225B76F3000A417D /* BlackSpace */,
+				188F3941225B76F7000A417D /* BlackSpaceTests */,
+				188F394C225B76F7000A417D /* BlackSpaceUITests */,
+				188F3924225B76F3000A417D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188F3924225B76F3000A417D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188F3923225B76F3000A417D /* BlackSpace.app */,
+				188F393E225B76F7000A417D /* BlackSpaceTests.xctest */,
+				188F3949225B76F7000A417D /* BlackSpaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188F3925225B76F3000A417D /* BlackSpace */ = {
+			isa = PBXGroup;
+			children = (
+				188F3926225B76F3000A417D /* AppDelegate.h */,
+				188F3927225B76F3000A417D /* AppDelegate.m */,
+				188F3929225B76F3000A417D /* ViewController.h */,
+				188F392A225B76F3000A417D /* ViewController.m */,
+				188F395E225B79D4000A417D /* RootViewController.h */,
+				188F395F225B79D4000A417D /* RootViewController.m */,
+				188F3932225B76F7000A417D /* Assets.xcassets */,
+				188F3937225B76F7000A417D /* Info.plist */,
+				188F3938225B76F7000A417D /* main.m */,
+				188F392F225B76F3000A417D /* BlackSpace.xcdatamodeld */,
+			);
+			path = BlackSpace;
+			sourceTree = "<group>";
+		};
+		188F3941225B76F7000A417D /* BlackSpaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				188F3942225B76F7000A417D /* BlackSpaceTests.m */,
+				188F3944225B76F7000A417D /* Info.plist */,
+			);
+			path = BlackSpaceTests;
+			sourceTree = "<group>";
+		};
+		188F394C225B76F7000A417D /* BlackSpaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				188F394D225B76F7000A417D /* BlackSpaceUITests.m */,
+				188F394F225B76F7000A417D /* Info.plist */,
+			);
+			path = BlackSpaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188F3922225B76F3000A417D /* BlackSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F3952225B76F7000A417D /* Build configuration list for PBXNativeTarget "BlackSpace" */;
+			buildPhases = (
+				188F391F225B76F3000A417D /* Sources */,
+				188F3920225B76F3000A417D /* Frameworks */,
+				188F3921225B76F3000A417D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackSpace;
+			productName = BlackSpace;
+			productReference = 188F3923225B76F3000A417D /* BlackSpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188F393D225B76F7000A417D /* BlackSpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F3955225B76F7000A417D /* Build configuration list for PBXNativeTarget "BlackSpaceTests" */;
+			buildPhases = (
+				188F393A225B76F7000A417D /* Sources */,
+				188F393B225B76F7000A417D /* Frameworks */,
+				188F393C225B76F7000A417D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188F3940225B76F7000A417D /* PBXTargetDependency */,
+			);
+			name = BlackSpaceTests;
+			productName = BlackSpaceTests;
+			productReference = 188F393E225B76F7000A417D /* BlackSpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188F3948225B76F7000A417D /* BlackSpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F3958225B76F7000A417D /* Build configuration list for PBXNativeTarget "BlackSpaceUITests" */;
+			buildPhases = (
+				188F3945225B76F7000A417D /* Sources */,
+				188F3946225B76F7000A417D /* Frameworks */,
+				188F3947225B76F7000A417D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188F394B225B76F7000A417D /* PBXTargetDependency */,
+			);
+			name = BlackSpaceUITests;
+			productName = BlackSpaceUITests;
+			productReference = 188F3949225B76F7000A417D /* BlackSpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188F391B225B76F3000A417D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					188F3922225B76F3000A417D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					188F393D225B76F7000A417D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 188F3922225B76F3000A417D;
+					};
+					188F3948225B76F7000A417D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 188F3922225B76F3000A417D;
+					};
+				};
+			};
+			buildConfigurationList = 188F391E225B76F3000A417D /* Build configuration list for PBXProject "BlackSpace" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188F391A225B76F3000A417D;
+			productRefGroup = 188F3924225B76F3000A417D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188F3922225B76F3000A417D /* BlackSpace */,
+				188F393D225B76F7000A417D /* BlackSpaceTests */,
+				188F3948225B76F7000A417D /* BlackSpaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188F3921225B76F3000A417D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3933225B76F7000A417D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F393C225B76F7000A417D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3947225B76F7000A417D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188F391F225B76F3000A417D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F392B225B76F3000A417D /* ViewController.m in Sources */,
+				188F3928225B76F3000A417D /* AppDelegate.m in Sources */,
+				188F3939225B76F7000A417D /* main.m in Sources */,
+				188F3931225B76F3000A417D /* BlackSpace.xcdatamodeld in Sources */,
+				188F3960225B79D5000A417D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F393A225B76F7000A417D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3943225B76F7000A417D /* BlackSpaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3945225B76F7000A417D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F394E225B76F7000A417D /* BlackSpaceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188F3940225B76F7000A417D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188F3922225B76F3000A417D /* BlackSpace */;
+			targetProxy = 188F393F225B76F7000A417D /* PBXContainerItemProxy */;
+		};
+		188F394B225B76F7000A417D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188F3922225B76F3000A417D /* BlackSpace */;
+			targetProxy = 188F394A225B76F7000A417D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		188F3950225B76F7000A417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188F3951225B76F7000A417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188F3953225B76F7000A417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYF6G62N4D;
+				INFOPLIST_FILE = BlackSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.BlackSpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188F3954225B76F7000A417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYF6G62N4D;
+				INFOPLIST_FILE = BlackSpace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.BlackSpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		188F3956225B76F7000A417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYF6G62N4D;
+				INFOPLIST_FILE = BlackSpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.BlackSpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackSpace.app/BlackSpace";
+			};
+			name = Debug;
+		};
+		188F3957225B76F7000A417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYF6G62N4D;
+				INFOPLIST_FILE = BlackSpaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.BlackSpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackSpace.app/BlackSpace";
+			};
+			name = Release;
+		};
+		188F3959225B76F7000A417D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYF6G62N4D;
+				INFOPLIST_FILE = BlackSpaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.BlackSpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackSpace;
+			};
+			name = Debug;
+		};
+		188F395A225B76F7000A417D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYF6G62N4D;
+				INFOPLIST_FILE = BlackSpaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.BlackSpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackSpace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188F391E225B76F3000A417D /* Build configuration list for PBXProject "BlackSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F3950225B76F7000A417D /* Debug */,
+				188F3951225B76F7000A417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F3952225B76F7000A417D /* Build configuration list for PBXNativeTarget "BlackSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F3953225B76F7000A417D /* Debug */,
+				188F3954225B76F7000A417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F3955225B76F7000A417D /* Build configuration list for PBXNativeTarget "BlackSpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F3956225B76F7000A417D /* Debug */,
+				188F3957225B76F7000A417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F3958225B76F7000A417D /* Build configuration list for PBXNativeTarget "BlackSpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F3959225B76F7000A417D /* Debug */,
+				188F395A225B76F7000A417D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		188F392F225B76F3000A417D /* BlackSpace.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				188F3930225B76F3000A417D /* BlackSpace.xcdatamodel */,
+			);
+			currentVersion = 188F3930225B76F3000A417D /* BlackSpace.xcdatamodel */;
+			path = BlackSpace.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 188F391B225B76F3000A417D /* Project object */;
+}
